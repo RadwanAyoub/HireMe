@@ -1,0 +1,21 @@
+:root {
+    --mainColor: #ff9800;
+    --strikeBackground: linear-gradient(40deg, var(--bs-indigo), var(--bs-teal));
+}
+
+* {
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: auto;
+    height: auto;
+}
+
+body {
+    border: 10px solid #ff9800;
+    background-image: linear-gradient(100deg, var(--bs-indigo), var(--bs-teal));
+}
